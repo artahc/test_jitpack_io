@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "test_android_library_jitpack_io"
 include(":app")
- 
+include(":sumlib")
