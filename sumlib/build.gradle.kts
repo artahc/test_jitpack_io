@@ -1,3 +1,6 @@
+group = "com.github.jitpack"
+version = "1.0"
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
@@ -49,7 +52,7 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.artahc"
+            groupId = "com.github.artahc"
             artifactId = "sumlib"
             version = "1.0"
 
