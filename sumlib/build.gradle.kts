@@ -1,11 +1,11 @@
-group = "com.github.artahc"
-version = "1.0"
-
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
     `maven-publish`
 }
+
+group = "com.github.artahc"
+version = "1.0"
 
 android {
     namespace = "com.artahc.sumlib"
