@@ -1,4 +1,4 @@
-group = "com.github.jitpack"
+group = "com.github.artahc"
 version = "1.0"
 
 plugins {
