@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.artahc.test_android_library_jitpack_io"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.artahc.test_android_library_jitpack_io"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
