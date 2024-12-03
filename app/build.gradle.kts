@@ -50,7 +50,6 @@ android {
 }
 
 dependencies {
-    implementation(project(":sumlib"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -68,4 +67,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation("co.igloo.access:sdk:1.0.0-beta.1")
 }

@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import co.igloo.access.sdk.IglooPlugin
 import com.artahc.test_android_library_jitpack_io.ui.theme.Test_android_library_jitpack_ioTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,6 +19,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            val plugin = IglooPlugin(this, "", "", listOf())
+
             Test_android_library_jitpack_ioTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(

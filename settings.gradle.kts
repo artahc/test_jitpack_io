@@ -17,7 +17,15 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven {
-            url = uri("https://jitpack.io")
+            name = "GitLab"
+            url = uri("https://gitlab.com/api/v4/projects/64441730/packages/maven")
+            authentication {
+                create<BasicAuthentication>("basic")
+            }
+            credentials {
+                username = "Private-Token"
+                password = ""
+            }
         }
     }
 }
@@ -25,3 +33,5 @@ dependencyResolutionManagement {
 rootProject.name = "test_android_library_jitpack_io"
 include(":app")
 include(":sumlib")
+include(":dividelib")
+include(":mathlib")
